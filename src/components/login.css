@@ -1,0 +1,105 @@
+/* Centering the form */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0a0f1e, #1e3c72);
+}
+
+/* Form Box */
+.auth-form {
+    background: rgba(20, 20, 30, 0.95);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 350px;
+}
+
+/* Title */
+.auth-form h2 {
+    color: #4db8ff;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+/* Inputs */
+.auth-form input,
+.auth-form select {
+    width: 93%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #1b2533;
+    border: 1px solid #4db8ff;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Placeholder Styling */
+.auth-form input::placeholder {
+    color: #4db8ff;
+}
+
+/* Submit Button */
+.auth-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #4db8ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.auth-form button:hover {
+    background: #3a99d8;
+}
+
+/* Toggle Button */
+.toggle-btn {
+    background: none;
+    border: none;
+    color: #4db8ff;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.toggle-btn:hover {
+    color: #3a99d8;
+}
+
+/* Webcam Container */
+.webcam-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.webcam-container button {
+    margin-top: 10px;
+    padding: 8px;
+    background: #ff4d4d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.webcam-container button:hover {
+    background: #cc0000;
+}
+
+/* Captured Image */
+.captured-img {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #4db8ff;
+}

@@ -1,0 +1,29 @@
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero__image{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero__title{
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    color: #dbfffe;
+    margin: 0px;
+    font-size: 4rem;
+    padding: 15px;
+}
+
+@media screen and (max-width:900px) {
+    .hero__title{
+        font-size: 3rem;
+    }
+    
+}

@@ -1,0 +1,54 @@
+.page {
+  text-align: center;
+  padding: 20px;
+  background: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: #1e1e2e;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 217, 255, 0.3);
+  width: 300px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card-content {
+  margin-top: 10px;
+}
+
+.icon {
+  color: #ffcc00;
+  margin-right: 5px;
+}
+
+.phone-icon {
+  color: #ff4c4c;
+  margin-right: 5px;
+}

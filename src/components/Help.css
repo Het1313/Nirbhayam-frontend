@@ -1,0 +1,148 @@
+.help-page {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #1e1e2e, #34314a);
+  min-height: 100vh;
+  color: white;
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.icon-large {
+  font-size: 4rem;
+  color: #ff4747;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.sos-button {
+  background: #ff0000;
+  color: white;
+  font-size: 1.5rem;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.4);
+}
+
+.sos-button:hover {
+  background: #cc0000;
+  box-shadow: 0px 6px 14px rgba(255, 0, 0, 0.6);
+}
+
+.requests {
+  margin-top: 20px;
+}
+
+.requests h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.request-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.request-card {
+  background: rgba(255, 255, 255, 0.2);
+  /* backdrop-filter: blur(10px); */
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.request-card:hover {
+  transform: translateY(-5px);
+}
+
+.request-icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.request-card p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.cancel-icon {
+  color: #ff4747;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cancel-icon:hover {
+  color: #cc0000;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #222;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.popup p {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.close-popup {
+  background: #ff4747;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.close-popup:hover {
+  background: #cc0000;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
